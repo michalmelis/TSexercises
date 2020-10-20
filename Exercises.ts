@@ -1,5 +1,6 @@
 console.log(totalDistance(0.2,0.4,100))
 console.log(equal(1,1,1))
+console.log(isTriangle(1,2,3))
 
 
 
@@ -24,4 +25,9 @@ function equal(a:number, b:number, c:number)
         {
           return 0;
         }
+}
+
+function isTriangle(a:number, b:number, c:number):boolean
+{
+    return (a+b)>c;
 }
